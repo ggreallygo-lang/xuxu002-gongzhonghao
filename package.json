@@ -1,0 +1,15 @@
+{
+  "name": "gzh-kit",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "让智能体替你写、排、推公众号的最小工具包",
+  "scripts": {
+    "build": "python scripts/build.py",
+    "check": "python scripts/check.py",
+    "publish": "node scripts/publish.mjs"
+  },
+  "dependencies": {
+    "@wenyan-md/core": "^3.0.12"
+  }
+}
